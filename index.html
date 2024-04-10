@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lading page Iphone</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav class="navegacao">
+            <a href="#"><img src="img/logo.png" class="logo" alt="iphone logo">
+            <ul>
+                <li><a href="#">Loja</a></li>
+                <li><a href="#">Mac</a></li>
+                <li><a href="#" class="check">Iphone</a></li>
+                <li><a href="#">Ipad</a></li>
+                <li><a href="#">AirPod</a></li>
+                <li><a href="#">Watch</a></li>
+                <li><a href="#">Suporte</a></li>
+            </ul></a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="circle"></div>
+            <div class="mainText">
+                <img src="img/iphone13.png" alt="">
+                <h3>Seu novo iPhone</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea ipsa modi ut libero iste facilis rerum sapiente,<br> aliquam in atque, et mollitia perspiciatis officiis saepe sed veniam? Mollitia, dolorum asperiores!</p>
+                <h6>A partir de R$ 12.599</h6>
+                <a href="#" class="btn">Comprar</a>
+                <div class="text">
+                    <h5>Cores: </h5>
+                </div>
+                <div class="content">
+                    <span id="pink" onclick="imgTroca('img/pink.png'); circleTroca('#ffc9cf');"></span>
+                    <span id="black" onclick="imgTroca('img/black.png'); circleTroca('#092732');"></span>
+                    <span id="white" onclick="imgTroca('img/white.png'); circleTroca('#e0dbd7');"></span>
+                    <span id="green" onclick="imgTroca('img/green.png'); circleTroca('#445c42');"></span>
+                    <span id="blue" onclick="imgTroca('img/blue.png'); circleTroca('#0b839e');"></span>
+                    <span id="red" onclick="imgTroca('img/red.png'); circleTroca('#cf4f68');"></span>
+                </div>
+            </div>
+            <div class="mainImg">
+                <img src="img/pink.png" alt="Imagem Iphone rosa" id="phone">
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
